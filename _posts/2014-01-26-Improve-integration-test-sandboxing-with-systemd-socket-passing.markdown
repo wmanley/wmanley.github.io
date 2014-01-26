@@ -2,7 +2,7 @@
 layout: post
 title:  "Improve integration test sandboxing with systemd socket passing"
 date:   2014-01-26 12:04:21
-categories: python integration-testing testing systemd
+categories:
 ---
 
 TL;DR version: Improve integration test sandboxing with [systemd socket passing](http://0pointer.de/public/systemd-man/sd_listen_fds.html).  You can allocate a random port for your daemon and don't need to wait for the daemon to start up to run your test.  It's fast, robust, race-free and **doesn't depend on systemd**.
