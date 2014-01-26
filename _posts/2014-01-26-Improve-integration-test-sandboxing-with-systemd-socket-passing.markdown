@@ -22,7 +22,7 @@ So one way to do this would be to tell the server you're starting to choose a ra
 
 I like to use a different technique: open the sockets myself and then pass them to the daemon.  This way I don't need to wait for the daemon to start-up and don't need to inspect it's logs or query it.  I use the [systemd socket passing protocol](http://0pointer.de/public/systemd-man/sd_listen_fds.html) which some daemons support anyway.  This means I open a listening socket, and then start my daemon with the environment variable `LISTEN_FDS=1` to tell it that I am passing a socket to it and that socket is fd #3†.
 
-An example:
+I've written a small utility - sd-popen.py to do this for me.  An example:
 
     $ # Show that the LISTEN_FDS environment variable is set in the child:
     $ ./sd-popen.py --outfile=env.log env
