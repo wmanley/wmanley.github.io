@@ -118,6 +118,6 @@ At the end of Julien Danjou's blog post he writes:
 
 > To speed up tests run, you could also run the test in parallel. It can be interesting as you'll be able to spread the workload among a lot of different CPUs. However, note that it can require a different database for each test or a locking mechanism to be in place. It's likely that your tests won't be able to work altogether at the same time on only one database.
 
-I say - use the [`LISTEN_FDS`/`LISTEN_PID` socket passing protocol](http://0pointer.de/public/systemd-man/sd_listen_fds.html).
+I say - start a different database for each test using the [`LISTEN_FDS`/`LISTEN_PID` socket passing protocol](http://0pointer.de/public/systemd-man/sd_listen_fds.html).
 
 †: fd 3 is the next one after stdin (0), stdout (1) and stderr (2).
