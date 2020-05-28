@@ -36,7 +36,7 @@ That covers building the software, what about getting the source?  Within google
 
 ----
 
-What would such a distro look like?  I’ve seen one example of this from a few years ago [gittup].  It consists of a git repo containing a submodule for every package.  Each package has been modified to build using the tup build system.  They can now make a change to any file and run a build and they get a new system in seconds. Check out the [website][http://gittup.org/gittup/], particularly the section “What gittup.org does that nobody else can”. It gives you a taste for what might be possible. The tools used in gittup wouldn’t scale to the size of Debian, on the other hand we know tools that will, or could.  But it’s not about the tools…
+What would such a distro look like?  I’ve seen one example of this from a few years ago [gittup].  It consists of a git repo containing a submodule for every package.  Each package has been modified to build using the tup build system.  They can now make a change to any file and run a build and they get a new system in seconds. Check out the [website](http://gittup.org/gittup/), particularly the section “What gittup.org does that nobody else can”. It gives you a taste for what might be possible. The tools used in gittup wouldn’t scale to the size of Debian, on the other hand we know tools that will, or could.  But it’s not about the tools…
 
 The challenge is the sheer amount of software to be packaged is tremendous.  Having a complete view of the build graph requires converting every package to the same build system. This requires many people, each with some level of expertise in their package, all pulling in the same direction, all choosing the same tooling. It’s a social problem, rather than a technical one.
 
