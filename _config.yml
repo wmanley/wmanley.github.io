@@ -1,2 +1,7 @@
 name: Will's blog
 highlighter: rouge
+plugins:
+  - jekyll-feed
+title: Will's Blog
+description: The technical blog of William Manley
+author: William Manley
