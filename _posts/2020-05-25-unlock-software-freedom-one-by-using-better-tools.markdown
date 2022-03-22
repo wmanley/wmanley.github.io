@@ -6,7 +6,11 @@ categories:
 ---
 An idea that I've had burrowing into my mind for quite a few years now is that free software distros are held back by the crap build tools that are used to build software - but the lack of availability of better tools isn’t the cause of the problem.
 
-If you want to make a modification to your system it's a massive ball-ache.  In my opinion just getting to the point where you can find the relevant package and build it is harder than making the change in most cases.  I think it's a real shame that we have these distros full of software with source available, but you'd never think of making small changes because there's such a hurdle to get over, and that hurdle isn't knowing programming, or understanding the code - it's just the inconvenience of building and running your modified version.
+[Software freedom one is][one]:
+
+> The freedom to study how the program works, and change it so it does your computing as you wish (freedom 1). Access to the source code is a precondition for this.
+
+In practice if you want to make a modification to your system it's a massive ball-ache.  In my opinion just getting to the point where you can find the relevant package and build it is harder than making the change in most cases.  I think it's a real shame that we have these distros full of software with source available, but you'd never think of making small changes because there's such a hurdle to get over, and that hurdle isn't knowing programming, or understanding the code - it's just the inconvenience of building and running your modified version.
 
 Back in 2006 (I think) there was the project called [One Laptop Per Child][olpc].  One of the ideas behind it was that not only was this a tool to enable children in the developing world to do things like wikipedia access, word processing, and spreadsheets, but that it was a tool that they could mould themselves.  They could change any part of the software that made up the device, safely, in such a way that they couldn't brick the device and any changes were easily revertible.  The thing that really captured my imagination was a button on the keyboard labelled "View Source"!  Imagine that!  You're using a piece of software and you want to know how it works, or you want it to work differently and you press the button, and there it is in the editor.  You could make a change and build and run it in one click. Perhaps with another click you could share your changes with the world.
 
@@ -48,6 +52,7 @@ So this is my attempt to generate that yearning.
 
 [1]: https://cacm.acm.org/magazines/2016/7/204032-why-google-stores-billions-of-lines-of-code-in-a-single-repository/fulltext
 [2]: https://vfsforgit.org/
+[one]: https://www.gnu.org/philosophy/free-sw.en.html
 [gittup]: https://github.com/gittup/gittup
 [GStreamer]: https://gstreamer.freedesktop.org/
 [olpc]: http://one.laptop.org/
