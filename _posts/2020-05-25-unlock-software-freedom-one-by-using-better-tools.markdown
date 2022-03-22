@@ -6,7 +6,7 @@ categories:
 ---
 An idea that I've had burrowing into my mind for quite a few years now is that free software distros are held back by the crap build tools that are used to build software - but the lack of availability of better tools isn’t the cause of the problem.
 
-[Software freedom one is][one]:
+[Software freedom one][one] is:
 
 > The freedom to study how the program works, and change it so it does your computing as you wish (freedom 1). Access to the source code is a precondition for this.
 
