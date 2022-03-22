@@ -6,7 +6,7 @@ categories:
 ---
 An idea that I've had burrowing into my mind for quite a few years now is that free software distros are held back by the crap build tools that are used to build software - but the lack of availability of better tools isn’t the cause of the problem.
 
-[Software freedom one][one] is:
+The [FSF define] software freedom one as:
 
 > The freedom to study how the program works, and change it so it does your computing as you wish (freedom 1). Access to the source code is a precondition for this.
 
@@ -56,7 +56,7 @@ So this is my attempt to generate that yearning.
 [gittup]: https://github.com/gittup/gittup
 [GStreamer]: https://gstreamer.freedesktop.org/
 [olpc]: http://one.laptop.org/
-[four freedoms]: https://www.gnu.org/philosophy/free-sw.html
+[FSF define]: https://www.gnu.org/philosophy/free-sw.html
 
 
 [^1]: Note: I've never worked for Google, this is just my understanding from information google has published and talking to googlers and ex-googlers. Ultimately whether what I say about how things work at google is true or not is irrelevant to the substance of this article.  This is about how the free software ecosystem and distros in particular could be different, and better.  Google is a strawman in this instance I've used to make the ideas more concrete.
