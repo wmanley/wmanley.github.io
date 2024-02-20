@@ -7,7 +7,7 @@ categories:
 
 I recently discovered this 2010 JSConf presentation via [HTMX] discord:
 
-<iframe width="628" height="353" src="https://www.youtube-nocookie.com/embed/wHlyLEPtL9o?si=TCFtMn55aK0vtAlH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe style="width: 100%; aspect-ratio: 16 / 9" src="https://www.youtube-nocookie.com/embed/wHlyLEPtL9o?si=TCFtMn55aK0vtAlH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Summary
 

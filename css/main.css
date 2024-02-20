@@ -58,8 +58,8 @@ a:visited { color: #a0a; }
 .site {
   font-size: 115%;
   text-align: justify;
-  width: 42em;
-  margin: 3em auto 2em;
+  max-width: 42em;
+  padding: 1em;
   line-height: 1.5em;
 }
 
