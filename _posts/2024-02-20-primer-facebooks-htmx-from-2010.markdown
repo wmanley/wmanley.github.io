@@ -20,7 +20,7 @@ The motivation was performance. The effect was better performance - but also muc
 
 I'd recommend watching the whole thing, I found it a pleasure.  The author, [Makinde Adeagbo](https://makinde.adeagbo.com/), is a charismatic presenter.  He covers other areas like downloading JS on-demand, native HTML controls and the tooling they used to find interactions that they could apply Primer to.
 
-The actual code can be found here: [https://gist.github.com/makinde/376039]
+The actual code can be found here: [https://gist.github.com/makinde/376039](https://gist.github.com/makinde/376039).
 
 The context now than then is very different of course. They were already returning html from the server - so it’s less of a jump to having a generic JavaScript library to do it for you. The point of comparison now would be to a react style SPA with endpoints returning JSON and HTML being generated client-side.
 
