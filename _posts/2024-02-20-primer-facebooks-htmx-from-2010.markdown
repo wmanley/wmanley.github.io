@@ -24,7 +24,7 @@ The actual code can be found here: [https://gist.github.com/makinde/376039](http
 
 The context now than then is very different of course. They were already returning html from the server - so it’s less of a jump to having a generic JavaScript library to do it for you. The point of comparison now would be to a react style SPA with endpoints returning JSON and HTML being generated client-side.
 
-### Why is this interesting?
+# Why is this interesting?
 
 * The core idea is the same as HTMX, which is currently riding high in the hype cycle - but 14 years ago, and applied within a megacorp. I view the current enthusiasm about HTMX as very much a reaction to SPA misery - both as a user (slow brittle websites) and as a developer (increased complexity and lines of code).  In this case the technology was introduced at the same time, and within the same organisation as react!
 * Like many YouTube videos I'm left with the question "What happened next?".  How widely did they end up applying this?  What happened to the 300 people within facebook at the time that knew about it? It can't have made that much of an impression on them at the time - they didn't disperse and evangelise.  Why did react win inside facebook?  Why, why, why?
@@ -35,7 +35,7 @@ The context now than then is very different of course. They were already returni
     * Something related to the mobile web/apps? At this time it was clear that mobile was going to be the most important client, and maybe they had some ambition for offline only use cases?
     * Pure chance - the right people heard about react within facebook at the right time?
 
-### Minutaie
+# Minutiae
 
 Less interesting asides peripheral to the main point of this blog post:
 
