@@ -12,13 +12,13 @@ I recently discovered this 2010 JSConf presentation via [HTMX] discord:
 Summary:
 
 1. At Facebook they had loads of JavaScript and that was causing slow page loads.
-2. Loading the JavaScript async didn’t work well as the page would render, but be non interactive - which sucks from a ux perspective.
-3. They realised that the basic operation the JavaScript was performing was making an http request and swapping the new content somewhere in the DOM - so they wrote a 40 line JavaScript function to do this which they included inline in every pages’ `&lt;head&gt;`[^1]. This gave them instant interactivity.
+2. Loading the JavaScript async didn’t work well as the page would render, but be non interactive - which sucks from a UX perspective.
+3. They realised that the basic operation the JavaScript was performing was making an http request and swapping the new content somewhere in the DOM - so they wrote a 40 line JavaScript function to do this which they included inline in every pages’ `<head>`[^1]. This gave them instant interactivity.
 4. They were then going through incrementally replacing as much existing JavaScript with just this library - increasing performance (~5s to ~2.5s page load) and reducing complexity and lines of code.
 
-The motivation was performance. The effect was better performance - but also much less code to write.
+The motivation was performance. The effect was better performance - but also much less code to write and a simpler overall system.
 
-I'd recommend watching the whole thing, I found it a pleasure.  The author, [Makinde Adeagbo](https://makinde.adeagbo.com/), is a charasmatic presenter.  He covers other areas like downloading JS on-demand, native HTML controls and the tooling they used to find interactions that they could apply Primer to.
+I'd recommend watching the whole thing, I found it a pleasure.  The author, [Makinde Adeagbo](https://makinde.adeagbo.com/), is a charismatic presenter.  He covers other areas like downloading JS on-demand, native HTML controls and the tooling they used to find interactions that they could apply Primer to.
 
 The actual code can be found here: [https://gist.github.com/makinde/376039]
 
@@ -26,8 +26,8 @@ The context now than then is very different of course. They were already returni
 
 ### Why is this interesting?
 
-* The core idea is the same as HTMX, which is currently riding high in the hype cycle - but 14 years ago, and applied within a megacorp. I view the current enthusiasm about HTMX as very much a reaction to SPA misery - both as a user (slow brittle websites) and as a developer (increased complexity and lines of code).  In this case the technology was introduced at the same time, and within the same organistaion as react!
-* Like many YouTube videos I'm left with the question "What happened next?".  How widely did they end up applying this?  What happened to the 300 people within facebook at the time that knew about it? It can't have made that much of an impression on them at the time - they didn't disperse and evangelize.  Why did react win inside facebook?  Why, why, why?
+* The core idea is the same as HTMX, which is currently riding high in the hype cycle - but 14 years ago, and applied within a megacorp. I view the current enthusiasm about HTMX as very much a reaction to SPA misery - both as a user (slow brittle websites) and as a developer (increased complexity and lines of code).  In this case the technology was introduced at the same time, and within the same organisation as react!
+* Like many YouTube videos I'm left with the question "What happened next?".  How widely did they end up applying this?  What happened to the 300 people within facebook at the time that knew about it? It can't have made that much of an impression on them at the time - they didn't disperse and evangelise.  Why did react win inside facebook?  Why, why, why?
 
   Speculation:
 
