@@ -117,8 +117,9 @@ a:visited { color: #a0a; }
   padding: 0 .4em;
 }
 
-.post ul, .post ol {
-  margin-left: 1.35em;
+/* Only top level `li`s: */
+.post > ol > li {
+  margin-bottom: 8px;
 }
 
 .post code {
