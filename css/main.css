@@ -4,26 +4,12 @@
 /*
 /*****************************************************************************/
 
-/* Global Reset */
-* {
-  margin: 0;
-  padding: 0;
-}
-
-html, body { height: 100%; }
-
 body {
   background-color: #FFF;
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
 }
-
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
-
-h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
 
 a         { color: #00a; }
 a:hover   { color: #000; }
@@ -37,10 +23,6 @@ a:visited { color: #a0a; }
 .posts {
   list-style-type: none;
   margin-bottom: 2em;
-}
-
-.posts li {
-  line-height: 1.75em;
 }
 
 .posts span {
@@ -60,7 +42,8 @@ a:visited { color: #a0a; }
   text-align: justify;
   max-width: 42em;
   padding: 1em;
-  line-height: 1.5em;
+  margin: 0 auto;
+  line-height: 150%;
 }
 
 .header a {
