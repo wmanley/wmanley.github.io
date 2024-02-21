@@ -36,6 +36,7 @@ The context now than then is very different of course. They were already returni
     * React allowed them to scale their features quickly by having many teams work more independently of each other?
     * Something related to the mobile web/apps? At this time it was clear that mobile was going to be the most important client, and maybe they had some ambition for offline only use cases?
     * Pure chance - the right people heard about react within facebook at the right time?
+    * The hypermedia approach was too limited to create the UX that facebook wanted?
 
 # Minutiae
 
@@ -64,6 +65,7 @@ Less interesting asides peripheral to the main point of this blog post:
 
 * [Twitter: Carson Gross on primer](https://twitter.com/htmx_org/status/1753183384493297751).  There's a bunch of interest in this tweet and the replies.
 * [Twitter: Dan Abramov on facebook history](https://twitter.com/dan_abramov2/status/1758121064360497192)
+* [Discuss this on Hacker News](https://news.ycombinator.com/item?id=39444432)
 
 # Footnotes:
 
