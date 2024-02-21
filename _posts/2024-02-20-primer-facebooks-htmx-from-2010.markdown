@@ -66,6 +66,7 @@ Less interesting asides peripheral to the main point of this blog post:
 * [Twitter: Carson Gross on primer](https://twitter.com/htmx_org/status/1753183384493297751).  There's a bunch of interest in this tweet and the replies.
 * [Twitter: Dan Abramov on facebook history](https://twitter.com/dan_abramov2/status/1758121064360497192)
 * [Discuss this on Hacker News](https://news.ycombinator.com/item?id=39444432)
+* [Twitter: @jordwalke on primer limitations](https://twitter.com/jordwalke/status/1753954026620940310)
 
 # Footnotes:
 
