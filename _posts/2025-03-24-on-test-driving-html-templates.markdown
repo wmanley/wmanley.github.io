@@ -36,6 +36,9 @@ Some thoughts on the article based on my experience over the last few years unit
    With a hypermedia approach you can get pretty far without involving a browser.  To simulate a click on an `<a href>...` tag you can click by CSS selector, but then look up the href and get that from your backend.  Similarly for the HTMX attributes - as long as they're kept simple enough.
 
 [HTMX]: https://htmx.org/
+
+## Footnotes
+
 [^1]: Traditional Hypermedia to me this means:
     1. Use built-in HTML functionality where possible (forms, links, etc.).
     2. HTML over the wire, not JSON
