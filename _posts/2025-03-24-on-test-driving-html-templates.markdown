@@ -9,7 +9,9 @@ I recently came across [this article by Matteo Vaccari of Thoughtworks](https://
 
 Some thoughts on the article based on my experience over the last few years unit testing HTML based systems:
 
-1. I definitely agree that testing the HTML output of your system is valuable.
+1. I definitely agree that testing the HTML output of your system is valuable. I would go further than this too - it's better to test HTML output than to test the JSON APIs you'd typically have in an SPA architecture. Why?, because your assertions are more likely to be testing the functionality of your system that is relevant to your users.
+
+   With JSON APIs you will often be sending more data than is needed to render the view, and there may be complex logic browser-side to transform the data before it becomes HTML.  With HTML over the wire the HTML that is sent is probably going to be rendered and shown to the user without much additional transformation.
 
 2. Doing the setup by injecting a specifically setup data structure into a template seems too narrow a test - you're only testing the template in this case, but maybe in production you've messed up populating this data structure from the database. Ultimately the properties you're testing in this case aren't that useful from a system/end-user perspective.
 
